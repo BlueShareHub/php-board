@@ -7,7 +7,7 @@
 1. 프로젝트를 클론합니다.
 
 ``` bash
-git clone https://github.com/your-username/blueshare-board.git
+git clone https://github.com/BlueShareHub/php-board.git
 ```
 
 2. 클론한 프로젝트의 폴더 구조는 다음과 같습니다.
