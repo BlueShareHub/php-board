@@ -2,6 +2,8 @@
 
 이 프로젝트는 PHP 7.4와 MariaDB 11.3을 기반으로 구현된 간단한 게시판 시스템입니다. 사용자는 글을 작성하고, 수정 및 삭제할 수 있으며 댓글 기능도 포함되어 있습니다.
 
+<br>
+
 ## 설치 방법
 
 1. 프로젝트를 클론합니다.
@@ -66,13 +68,19 @@ CREATE TABLE php_comments (
 
 6. 이제 브라우저에서 적용된 게시판 페이지를 확인할 수 있습니다.
 
+<br>
+
 ※ 적용된 게시판 페이지 예시: [https://bluesharehub.com/board/list.php?access=blueshare_board](https://bluesharehub.com/board/list.php?access=blueshare_board)
+
+<br>
 
 ## 사용 방법
 
 - **글 작성**: 게시판에서 '글쓰기' 버튼을 클릭하여 글을 작성할 수 있습니다.
 - **댓글 작성**: 각 게시글 하단에서 댓글을 작성할 수 있습니다.
 - **글 수정 및 삭제**: 작성한 글을 수정하거나 삭제하려면 작성 시 입력한 비밀번호를 입력해야 합니다.
+
+<br>
 
 ## 라이센스
 
