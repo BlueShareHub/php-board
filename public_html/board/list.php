@@ -156,7 +156,7 @@ $total_pages = ceil($total_posts / $limit);
     <div class="search-container">
         <form method="GET" action="" class="form-inline">
             <div class="input-group mb-3">
-                <span class="search-title">게시글 목록</span>
+                <h1 class="search-title">게시글 목록</h1>
                 <div class="d-flex justify-content-end" style="margin-left: auto;">
                     <input type="hidden" name="access" value="blueshare_board">
                     <select name="search_type" style="width: 100px; margin-right: 5px;">

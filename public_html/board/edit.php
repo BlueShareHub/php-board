@@ -145,7 +145,8 @@ $comment_count = $stmt_comment_count->fetchColumn();
 
     .post-meta {
       margin-left: 120px;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
+      text-align: right;
     }
 
     #editor-container {
@@ -228,7 +229,7 @@ $comment_count = $stmt_comment_count->fetchColumn();
       theme: 'snow',
       modules: {
         toolbar: [
-          [{ 'header': [1, 2, 3, false] }],
+          [{ 'header': [2, 3, false] }],
           [{ size: ['small', false, 'large'] }],
           ['bold', 'italic', 'underline', 'link'],
           [{ 'color': [] }, { 'background': [] }],

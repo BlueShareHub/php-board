@@ -198,7 +198,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       theme: 'snow',
       modules: {
         toolbar: [
-          [{ 'header': [1, 2, 3, false] }],
+          [{ 'header': [2, 3, false] }],
           [{ size: ['small', false, 'large'] }],
           ['bold', 'italic', 'underline', 'link'],
           [{ 'color': [] }, { 'background': [] }],

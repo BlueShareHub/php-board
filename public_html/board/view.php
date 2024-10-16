@@ -95,7 +95,7 @@ $comments = $stmt_comments->fetchAll(PDO::FETCH_ASSOC);
 
     .post-meta {
       color: #6c757d;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       text-align: right;
     }
 
@@ -206,6 +206,14 @@ $comments = $stmt_comments->fetchAll(PDO::FETCH_ASSOC);
 			background-color: #f8f9fa;
 		}
 
+		.formatted-content h2 {
+			font-size: 20px;
+		}
+
+		.formatted-content h3 {
+			font-size: 18px;
+		}
+
 		.formatted-content p {
 			margin: 0;
 			font-size: 16px;
@@ -221,7 +229,7 @@ $comments = $stmt_comments->fetchAll(PDO::FETCH_ASSOC);
 				font-size: 18px;
 		}
 		.ql-size-small {
-				font-size: 12px;
+				font-size: 14px;
 		}
 
   </style>
